@@ -112,12 +112,15 @@ textarea {
 
   /*COMMUN RULES*/
 
-  .tabpc, .title p{
+  .tabpc, .title p, .etoiles,
+  .coordonnees, .parteners,
+  .end2 h2{
     display: none;
   }
 
   a{
     color: #2e282a;
+    text-decoration: none;
   }
 
   .container{
@@ -129,6 +132,8 @@ textarea {
     margin: 0;
     width: 100%;
   }
+
+
 
   /*END COMMUN RULES*/
 
@@ -163,7 +168,6 @@ textarea {
     line-height: 60px;
     color: white;
     text-transform: uppercase;
-    text-decoration: none;
   }
 
   .down a:hover{
@@ -239,8 +243,82 @@ textarea {
   border-top: 2px #ffc914 solid;
   }
 
+  li{
+    list-style: none;
+  }
 
+  .cles img{
+    width: 10%;
+  }
 
+  .cles li{
+    margin-bottom: 2%;
+  }
+
+  .end1{
+    display: flex;
+    justify-content: center;
+  }
+
+  .info{
+    background: #2e282a;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    line-height: 150px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .info a{
+    color: white;
+  }
+
+  .info a:hover{
+    color: #e4572e;
+  }
+
+  .end2 h3{
+    text-align: center;
+  }
+
+  .logo{
+    display: flex;
+    justify-content: center;
+  }
+
+  footer{
+    background: #eee;
+  }
+
+  .logo img{
+    width: 20px;
+    margin: auto 10px;
+  }
+
+  footer nav{
+    text-align: center;
+  }
+
+  footer nav ul{
+    padding: 0;
+  }
+
+  footer nav li{
+    padding: 10px 0;
+    border-top: 1px lightgrey solid;
+    border-bottom: 1px lightgrey solid;
+  }
+
+  footer nav a:hover{
+    color: #e4572e;
+  }
+
+  footer p{
+    text-align: center;
+    font-size: 12px;
+  }
 
 
 
