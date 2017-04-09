@@ -104,14 +104,6 @@ textarea {
     font-size: 17px;
   }
 
-  /*html{
-    height: 100%;
-  }
-
-  *{
-    margin: 0;
-  }*/
-
   /*COMMUN RULES*/
 
   .tabpc, .title p, .etoiles,
@@ -135,8 +127,6 @@ textarea {
     width: 100%;
   }
 
-
-
   /*END COMMUN RULES*/
 
   /*HEADER*/
@@ -155,9 +145,9 @@ textarea {
   .down{
     text-align: center;
     display: none;
-    background: #2e282a;
+    background: #eee;
     position: absolute;
-    opacity: .9;
+    width: 100%;
   }
 
   .mobile:hover .down{
@@ -168,7 +158,7 @@ textarea {
   .down a{
     width: 100%;
     line-height: 60px;
-    color: white;
+    color: #2e282a;
     text-transform: uppercase;
   }
 
@@ -177,19 +167,23 @@ textarea {
   }
 
   .down a:nth-child(4){
-    border-top: 1px white solid;
+    border-top: 1px #2e282a solid;
   }
 
   .down a:nth-child(1){
-    border-bottom: 1px white solid;
+    border-bottom: 1px #2e282a solid;
+  }
+
+  .title{
+    background: #17bebb;
+    text-align: center;
+    text-transform: uppercase;
   }
 
   h1{
-    background: #17bebb;
-    text-align: center;
     letter-spacing: 5px;
-    margin-top: 50%;
-    text-transform: uppercase;
+    margin-top: 180px;
+    margin-bottom: 0;
   }
 
   header figure{
@@ -269,7 +263,7 @@ textarea {
   }
 
   .cles img{
-    width: 10%;
+    width: 30px;
   }
 
   .cles li{
@@ -341,6 +335,92 @@ textarea {
   footer p{
     text-align: center;
     font-size: 12px;
+  }
+
+  @media (min-width: 768px) {
+
+    h1{
+      margin-top: 250px;
+      padding: 20px;
+      font-size: 40px;
+    }
+
+    .mobile{
+      display: none;
+    }
+
+    .tabpc{
+      display: flex;
+    }
+
+    .title p{
+      display: block;
+      margin: 0;
+      letter-spacing: 1px;
+    }
+
+    /*.tabpc figure{
+      width: 50%;
+    }*/
+
+    .tabpc ul{
+      display: flex;
+      width: 100%;
+      padding: 0;
+      justify-content: space-around;
+    }
+
+    .tabpc li{
+      margin-right: 5%;
+      font-size: 20px;
+      letter-spacing: 1px;
+    }
+
+    .tabpc a{
+      color: #2e282a;
+    }
+
+    .tabpc a:hover{
+      color: #17bebb;
+    }
+
+    .tabpc ul span{
+      background: #17bebb;
+      padding: 5px 15px;
+      color: white;
+    }
+
+    .projects{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .projectstext{
+      width: 40%;
+    }
+
+     .projects figure{
+       width: 50%;
+     }
+
+     .cles{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+     }
+
+     .cles ul{
+       padding: 0;
+       width: 40%;
+     }
+
+     .cles h2{
+       width: 100%;
+     }
+
   }
 
 
