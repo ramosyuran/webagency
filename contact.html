@@ -57,21 +57,32 @@
 
 <!-- CONTAINER -->
 
-<section class="container">
+<section class="containercontact">
+  <article class="contact">
+    <h3>Nous Contacter</h3>
 
-  <form action="index.html" method="post">
+     <form action="index.html" method="post">
+       <p>
+        <label>Nom</label> : <input type="text" name="nom" /><br />
+        <label>Prénom</label> : <input type="text" name="prénom" /><br />
+        <label>Mail</label> :  <input type="email" name="Email" /><br />
+        <label>Tel</label> :  <input type="tel" name="tel"/><br />
+        <label for="produit">Produit ou Service</label><br />
+         <select name="produit" id="produit">
+          <option value="Ecommerce">Ecommerce</option>
+          <option value="Vitrine">Site vitrine</option>
+          <option value="Formation">Formation Web</option>
+          <option value="design">Design de site</option>
+         </select><br />
+        <label for="message">Votre message :</label><br />
+        <textarea name="message" id="message"></textarea>
+       </p>
+     </form>
+  </article>
 
-
-  </form>
-
-<<<<<<< HEAD
-  <form action="index.html" method="post">
-    
-
-  </form>
-
-=======
->>>>>>> 5f159a2f8a683b8138f29762a9cd8b34e14b5479
+  <div class="googlemap">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d877.877349944779!2d-0.13923973973973094!3d51.51299384554721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d511378c85%3A0xda5fe61b4e8aa161!2sCarnaby+St%2C+Soho%2C+London%2C+Royaume-Uni!5e0!3m2!1sfr!2sfr!4v1491765509012" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
 
 </section>
 
