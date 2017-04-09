@@ -100,6 +100,8 @@ textarea {
   body{
     margin: auto;
     color: #2e282a;
+    font-family: times;
+    font-size: 17px;
   }
 
   /*html{
@@ -213,6 +215,7 @@ textarea {
   .projects a{
     padding: 10px 20px;
     text-decoration: none;
+    color: white;
   }
 
   .projects p{
@@ -227,6 +230,12 @@ textarea {
   border-top: 2px #e4572e solid;
   }
 
+  .container article:nth-child(2) a:hover{
+    background: white;
+    color: #e4572e;
+    border: 1px #e4572e solid;
+  }
+
   .container article:nth-child(3){
   border-top: 2px #76b041 solid;
   }
@@ -235,12 +244,24 @@ textarea {
     background: #76b041;
   }
 
+  .container article:nth-child(3) a:hover{
+    background: white;
+    color: #76b041;
+    border: 1px #76b041 solid;
+  }
+
   .container article:nth-child(4) a{
     background: #ffc914;
   }
 
   .container article:nth-child(4){
   border-top: 2px #ffc914 solid;
+  }
+
+  .container article:nth-child(4) a:hover{
+    background: white;
+    color: #ffc914;
+    border: 1px #ffc914 solid;
   }
 
   li{
@@ -306,9 +327,11 @@ textarea {
   }
 
   footer nav li{
-    padding: 10px 0;
+    padding: 12px 0;
     border-top: 1px lightgrey solid;
     border-bottom: 1px lightgrey solid;
+    text-transform: uppercase;
+    letter-spacing: 1px;
   }
 
   footer nav a:hover{
