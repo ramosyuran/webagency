@@ -676,11 +676,16 @@ textarea {
 
   .equipe{
     justify-content: flex-end;
-
   }
 
   .equipe figure{
     width: 20%;
+    margin-left: 10%;
+  }
+
+  .historique{
+    display: flex;
+    margin: 4% auto;
   }
 
   /*page equipe end*/
