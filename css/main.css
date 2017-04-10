@@ -618,10 +618,6 @@ textarea {
       .produits{
         width: 40%;
         margin-bottom: 10px;
-        /*display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-content: center;*/
       }
 
       .produits a{
