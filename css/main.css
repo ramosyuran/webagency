@@ -335,6 +335,21 @@ textarea {
     margin: auto;
   }
 
+  /*page equipe*/
+
+  .equipe figure{
+    width: 50%;
+  }
+
+  .equipe p{
+    text-align: justify;
+  }
+
+  .equipe p img{
+    width: 30px;
+  }
+
+  /*end page equipe */
 
 
   footer{
