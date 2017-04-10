@@ -137,12 +137,15 @@ textarea {
   /*HEADER*/
 
   .mobile{
-    color: black;
     text-transform: uppercase;
     width: 100%;
   }
 
-  .mobile p{
+  .mobile img{
+    width: 40px;
+  }
+
+  .fig{
     margin: 0;
     padding: 20px;
   }
@@ -150,9 +153,10 @@ textarea {
   .down{
     text-align: center;
     display: none;
-    background: #eee;
+    background: #2e282a;
     position: absolute;
     width: 100%;
+    opacity: 0.8;
   }
 
   .mobile:hover .down{
@@ -163,7 +167,8 @@ textarea {
   .down a{
     width: 100%;
     line-height: 60px;
-    color: #2e282a;
+    letter-spacing: 1px;
+    color: white;
     text-transform: uppercase;
   }
 
@@ -172,22 +177,22 @@ textarea {
   }
 
   .down a:nth-child(4){
-    border-top: 1px #2e282a solid;
+    border-top: 1px white solid;
   }
 
   .down a:nth-child(1){
-    border-bottom: 1px #2e282a solid;
+    border-bottom: 1px white solid;
   }
 
   .title{
-    background: #17bebb;
     text-align: center;
     text-transform: uppercase;
   }
 
   h1{
     letter-spacing: 5px;
-    margin-top: 180px;
+    color: #2e282a;
+    margin-top: 60vh;
     margin-bottom: 0;
   }
 
@@ -197,11 +202,13 @@ textarea {
   }
 
   .bk{
-    background: url("../img/bureau.jpg") fixed center;
-    background-size: cover;
+    background: url("../img/logomobile.png") center;
+    /*background-size: cover;*/
     color: white;
+    background-repeat: no-repeat;
+    object-fit: cover;
     width: 100%;
-    height: 50vh;
+    height: 100vh;
   }
 
   .projects{
