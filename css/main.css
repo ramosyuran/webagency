@@ -127,6 +127,10 @@ textarea {
     width: 100%;
   }
 
+  .bold{
+    font-weight: bold;
+  }
+
   /*END COMMUN RULES*/
 
   /*HEADER*/
