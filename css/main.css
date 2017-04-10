@@ -126,7 +126,7 @@ textarea {
   }
 
   .container, .containercontact,
-  .containereq{
+  .containereq, .containerpro{
     width: 95%;
     margin: auto;
   }
@@ -235,7 +235,8 @@ textarea {
     text-align: justify;
   }
 
-  .container article:nth-child(2) a{
+  .container article:nth-child(2) a,
+  .containerpro article:nth-child(4) a{
     background: #e4572e;
   }
 
@@ -243,7 +244,8 @@ textarea {
   border-top: 2px #e4572e solid;
   }
 
-  .container article:nth-child(2) a:hover{
+  .container article:nth-child(2) a:hover,
+  .containerpro article:nth-child(4) a:hover{
     background: white;
     color: #e4572e;
     border: 1px #e4572e solid;
@@ -253,17 +255,20 @@ textarea {
   border-top: 2px #76b041 solid;
   }
 
-  .container article:nth-child(3) a{
+  .container article:nth-child(3) a,
+  .containerpro article:nth-child(3) a{
     background: #76b041;
   }
 
-  .container article:nth-child(3) a:hover{
+  .container article:nth-child(3) a:hover,
+  .containerpro article:nth-child(3) a:hover{
     background: white;
     color: #76b041;
     border: 1px #76b041 solid;
   }
 
-  .container article:nth-child(4) a{
+  .container article:nth-child(4) a,
+  .containerpro article:nth-child(5) a{
     background: #ffc914;
   }
 
@@ -271,7 +276,8 @@ textarea {
   border-top: 2px #ffc914 solid;
   }
 
-  .container article:nth-child(4) a:hover{
+  .container article:nth-child(4) a:hover,
+  .containerpro article:nth-child(5) a:hover{
     background: white;
     color: #ffc914;
     border: 1px #ffc914 solid;
@@ -394,6 +400,39 @@ textarea {
 
   /*end page equipe */
 
+  /*page produits*/
+
+  .produits figure{
+    width: 20%;
+  }
+
+  .produits{
+    border: 1px lightgrey dashed;
+    padding: 8px;
+    margin: 1% auto;
+  }
+
+  .produits p{
+    text-align: justify;
+  }
+
+  .containerpro article:nth-child(2) a{
+    background: #17bebb;
+  }
+
+  .containerpro article:nth-child(2) a:hover{
+    background: white;
+    color: #17bebb;
+    border: 1px #17bebb solid;
+  }
+
+  .containerpro a{
+    padding: 5px;
+    color: white;
+  }
+
+  /*end page prodruits*/
+
   footer{
     background: #eee;
   }
@@ -453,6 +492,7 @@ textarea {
     .tabpc figure{
       width: 100px;
       padding: 10px;
+      height: 100%;
     }
 
     .tabpc ul{
@@ -514,7 +554,7 @@ textarea {
        width: 100%;
      }
 
-/*page equipe */
+      /*page equipe */
 
       .equipe{
         display: flex;
@@ -536,52 +576,80 @@ textarea {
         width: 25%;
       }
 
-/*page equipe end*/
+      /*page equipe end*/
 
-/*-----CONTACT TABLET-----*/
+      /*-----CONTACT TABLET-----*/
 
-    .adressemobile{
-      display: none;
-    }
+      .adressemobile{
+        display: none;
+      }
 
-    .pub{
-      display: flex;
-      justify-content: space-between;
-    }
+      .pub{
+        display: flex;
+        justify-content: space-between;
+      }
 
-    .googlemap{
-      display: block;
-    }
+      .googlemap{
+        display: block;
+      }
 
-    .announceur, .candidat{
-      width: 40%;
-    }
+      .announceur, .candidat{
+        width: 40%;
+      }
 
-    .contact form, .adressemobile{
-      width: 40%;
-    }
+      .contact form, .adressemobile{
+        width: 40%;
+      }
 
-    /*CONTACT TABLET END*/
+      /*CONTACT TABLET END*/
 
-    .coordonnees, .parteners{
-      display: block;
-      width: 25%;
-    }
+      /*page produits tablet*/
 
-    .end1{
-      justify-content: space-between;
-      align-items: center;
-      width: 95%;
-      margin: auto;
-    }
+      .containerpro{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
 
-    .end1 ul{
-      padding: 0;
-    }
+      .containerpro h2{
+        width: 100%;
+      }
 
-    footer p{
-      font-size: 14px;
-    }
+      .produits{
+        width: 40%;
+        margin-bottom: 10px;
+        /*display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;*/
+      }
+
+      .produits a{
+        width: 25%;
+        text-align: center;
+      }
+
+      /*end page produi tablet*/
+
+      .coordonnees, .parteners{
+        display: block;
+        width: 25%;
+      }
+
+      .end1{
+        justify-content: space-between;
+        align-items: center;
+        width: 95%;
+        margin: auto;
+      }
+
+      .end1 ul{
+        padding: 0;
+      }
+
+      footer p{
+        font-size: 14px;
+      }
 
   }
 
@@ -647,24 +715,6 @@ textarea {
     width: 35%;
   }
 
-  /*.imgetoile1{
-    background: url('../img/responsive.png');
-    background-repeat: no-repeat;
-    width: 500px;
-    height: 500px;
-  }
-
-  .imgetoile1:hover .show,
-  .imgetoile1:hover{
-    background: url('../img/responsive2.png');
-    background-repeat: no-repeat;
-    opacity: 0;
-  }
-
-  .show{
-    display: none;
-  }*/
-
   /*-----CONTACT DESKTOP-----*/
 
   .other{
@@ -676,7 +726,7 @@ textarea {
   .googlemap h3{
     display: none;
   }
-  
+
   /*-----END OF CONTACT DESKTOP-----*/
 
   /*page equipe*/
