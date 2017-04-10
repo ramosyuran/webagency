@@ -34,7 +34,9 @@
         </nav>
 
         <nav class="mobile">
-          <p>Menu</p>
+          <div class="fig">
+             <img src="img/menumobile.png" alt="mobilelogo">
+           </div>
           <div class="down">
             <a href="index.html">Accueil</a>
             <a href="equipe.html">Présentation Équipe</a>
@@ -63,14 +65,13 @@
     <h3>Nous Contacter</h3>
 
      <form action="index.html" method="post">
-       <p>
-        <label>Nom</label> : <input type="text" name="nom" /><br />
-        <label>Prénom</label> : <input type="text" name="prénom" /><br />
-        <label>Mail</label> :  <input type="email" name="Email" /><br />
-        <label>Adresse</label> : <input type="text" name="adresse" /><br />
-        <label>Ville</label> : <input type="text" name="ville" /><br />
-        <label>Code postal</label> : <input type="number" name="codepostal" /><br />
-        <label>Tel</label> :  <input type="tel" name="tel"/><br />
+        <input type="text" name="nom" placeholder="Nom" /><br />
+        <input type="text" name="prénom" placeholder="Prénom"/><br />
+        <input type="email" name="Email" placeholder="Mail"/><br />
+        <input type="text" name="adresse" placeholder="Adresse"/><br />
+        <input type="text" name="ville" placeholder="Ville"/><br />
+        <input type="number" name="codepostal" placeholder="Code Postal"/><br />
+        <input type="tel" name="tel" placeholder="Téléphone"/><br />
         <label for="produit">Produit ou Service</label><br />
          <select name="produit" id="produit">
           <option value="Ecommerce">Ecommerce</option>
@@ -79,14 +80,20 @@
           <option value="design">Design de site</option>
          </select><br />
         <label for="message">Votre message :</label><br />
-        <textarea name="message" id="message"></textarea>
-       </p>
+        <textarea name="message" id="message" placeholder="Votre message"></textarea>
      </form>
   </article>
 
   <div class="googlemap">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d877.877349944779!2d-0.13923973973973094!3d51.51299384554721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d511378c85%3A0xda5fe61b4e8aa161!2sCarnaby+St%2C+Soho%2C+London%2C+Royaume-Uni!5e0!3m2!1sfr!2sfr!4v1491765509012" width="500" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
+
+  <article class="adressemobile">
+    <h4>Nous trouver</h4>
+    <p>17, Carnaby Street <br>
+       WR 43 287, LONDON <br>
+       + 33 769 33 11 40</p>
+  </article>
 
 </section>
 

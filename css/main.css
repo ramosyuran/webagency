@@ -123,11 +123,6 @@ textarea {
     margin: auto;
   }
 
-  .containercontact{
-    background-color: red;
-    display: flex;
-  }
-
   figure, img{
     margin: 0;
     width: 100%;
@@ -313,9 +308,16 @@ textarea {
     justify-content: center;
   }
 
+ /*page contact*/
+
+  .containercontact{
+    display: flex;
+    flex-direction: column;
+  }
+
   .contact{
     background-color: yellow;
-    width: 45%;
+    width: 95%;
   }
 
   .contact h3{
@@ -324,16 +326,32 @@ textarea {
 
   .contact form{
     background-color: pink;
-    text-align: right;
-  }
-
-  .contact form p label{
-    padding: px;
-  }
-
-  .googlemap iframe{
+    text-align: center;
+    width: 80%;
     margin: auto;
   }
+
+.contact form input{
+    width: 90%;
+    padding: 5px;
+}
+
+.contact form textarea{
+    width: 90%;
+    height: 100px;
+}
+
+.adressemobile{
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+
+  .googlemap{
+    display: none;
+  }
+  /*end page contact*/
 
   /*page equipe*/
 
