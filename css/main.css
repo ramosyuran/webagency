@@ -108,7 +108,7 @@ textarea {
 
   .tabpc, .title p, .etoiles,
   .coordonnees, .parteners,
-  .end2 h2{
+  .end2 h2, .historique{
     display: none;
   }
 
@@ -117,9 +117,15 @@ textarea {
     text-decoration: none;
   }
 
-  .container{
+  .container, .containercontact,
+  .containereq{
     width: 95%;
     margin: auto;
+  }
+
+  .containercontact{
+    background-color: red;
+    display: flex;
   }
 
   figure, img{
@@ -307,13 +313,6 @@ textarea {
     justify-content: center;
   }
 
-  .containercontact{
-    background-color: red;
-    margin-top: 40px;
-    display: flex;
-
-  }
-
   .contact{
     background-color: yellow;
     width: 45%;
@@ -375,7 +374,7 @@ textarea {
   @media (min-width: 768px) {
 
     h1{
-      margin-top: 250px;
+      margin-top: 140px;
       padding: 20px;
       font-size: 40px;
     }
