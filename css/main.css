@@ -322,7 +322,6 @@ textarea {
   }
 
   .contact{
-    background-color: yellow;
     width: 95%;
   }
 
@@ -331,7 +330,6 @@ textarea {
   }
 
   .contact form{
-    background-color: pink;
     text-align: center;
     width: 80%;
     margin: auto;
@@ -501,9 +499,51 @@ textarea {
        width: 100%;
      }
 
+/*-----CONTACT TABLET-----*/
+    .adressemobile{
+      display: none;
+    }
+
+    .googlemap{
+      display: block;
+      margin: auto;
+      padding: 30px;
+    }
+
+    .googlemap h3{
+      text-align: center;
+    }
+
+
+  }
+  /*-----END OF CONTACT TABLET-----*/
+
+
+@media (min-width: 1024px){
+
+  /*-----CONTACT DESKTOP-----*/
+
+  .containercontact{
+    flex-direction: row;
+    width: 95%;
+    align-items: flex-start;
+    height: 600px;
+  }
+
+  .googlemap{
+    height: 500px;
+  }
+
+  .contact{
+    height: 500px;
   }
 
 
+
+  /*-----END OF CONTACT DESKTOP-----*/
+
+
+}
 
 
 
