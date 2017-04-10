@@ -667,10 +667,16 @@ textarea {
 
   /*-----CONTACT DESKTOP-----*/
 
-  .contact{
+  .other{
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 4%;
   }
 
+  .googlemap h3{
+    display: none;
+  }
+  
   /*-----END OF CONTACT DESKTOP-----*/
 
   /*page equipe*/
