@@ -356,7 +356,7 @@ textarea {
   .contact form input,
   .contact form textarea{
   border-radius: 0;
-  border: 1px #2e282a solid;
+  border: 1px lightgrey solid;
   background: white;
   }
 
